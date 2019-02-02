@@ -7,7 +7,7 @@
     "client": "cd client && npm start",
     "server": "cd server && npm start",
     "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/datandleorg/dflow.git"
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/datandleorg/dflow/issues"
   },
-  "homepage": "https://github.com/datandleorg/dflow#readme"
+  "homepage": "https://github.com/datandleorg/dflow#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
 }
