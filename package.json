@@ -1,0 +1,22 @@
+{
+  "name": "dflow",
+  "version": "1.0.0",
+  "description": "project management\r yes",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datandleorg/dflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/datandleorg/dflow/issues"
+  },
+  "homepage": "https://github.com/datandleorg/dflow#readme"
+}
